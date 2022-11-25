@@ -1,3 +1,3 @@
 # Three.js models
 
-<a href="/gridshell_00">gridshell 00</a>
+<a href="https://echoesparis.github.io/three.js-models/gridshell_00">gridshell 00</a>
