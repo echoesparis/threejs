@@ -1,8 +1,3 @@
-/**
- * @summary Simple shell website for Triceratops scene
- * @author Meli <meliharvey87@gmail.com>
- */
-
 var camera, controls, scene, renderer;
 
 console.log(window.location.href)
