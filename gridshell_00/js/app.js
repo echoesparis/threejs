@@ -16,7 +16,7 @@ function init() {
   renderer = new THREE.WebGLRenderer( { antialias: true } );
   renderer.setSize(container.clientWidth, container.clientHeight);
   renderer.shadowMap.enabled = true; // if you don't want shadows, set to false
-  renderer.setClearColor (0xeeeeee, 1); // this is the background color seen while scene is loading
+  renderer.setClearColor (0xffffff, 1); // this is the background color seen while scene is loading
   container.appendChild( renderer.domElement );
 
   // create camera (default field of view is 60)
@@ -30,6 +30,9 @@ function init() {
   controls.screenSpacePanning = true;
   controls.maxPolarAngle = Math.PI / 2;
 
+
+
+  
   // this is only required when using RectAreaLight
   THREE.RectAreaLightUniformsLib.init();
 
@@ -60,6 +63,8 @@ function init() {
   	}
   );
 
+
+  
   // listen for changes to the window size to update the canvas
   window.addEventListener( 'resize', onWindowResize, false );
 
